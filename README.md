@@ -54,20 +54,21 @@ In the Model View, I reviewed the automatic relationships created by Power BI be
 
 **Maintaining Data Integrity**
 
-•	**Date Table:** Marked the date table as the *"official Date Table"* to ensure accurate time-based analysis.
-•	**Data Categories**: Assigned appropriate data categories (e.g. Store City) to prevent misinterpretation.
-•	**Nullable Columns**: Disabled the Nullable option for key columns (primary and foreign keys) to enforce data integrity and enhance performance.
+- **Date Table:** Marked the date table as the *"official Date Table"* to ensure accurate time-based analysis.
+- **Data Categories**: Assigned appropriate data categories (e.g. Store City) to prevent misinterpretation.
+- **Nullable Columns**: Disabled the Nullable option for key columns (primary and foreign keys) to enforce data integrity and enhance performance.
 
 **Measure Table**
 
 To organize and streamline the analysis, I created a dedicated measure table containing key metrics such as:
-•	Total Sales
-•	Total Profit
-•	Total Sales Year-to-Date
-•	Previous Year Sales
-•	Previous Month Sales
-•	Total Quantity Sold
-•	Number of Transactions
+
+- Total Sales
+- Total Profit
+- Total Sales Year-to-Date
+- Previous Year Sales
+- Previous Month Sales
+- Total Quantity Sold
+- Number of Transactions
 
 While crafting these measures, I ensured DAX queries were optimized for performance. For example:
 •	PREVIOUSMONTH() was used instead of DATEADD() for better efficiency in the calculation context.
