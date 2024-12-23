@@ -71,17 +71,22 @@ To organize and streamline the analysis, I created a dedicated measure table con
 - Number of Transactions
 
 While crafting these measures, I ensured DAX queries were optimized for performance. For example:
-•	PREVIOUSMONTH() was used instead of DATEADD() for better efficiency in the calculation context.
-•	SAMEPERIODLASTYEAR() was preferred over DATEADD() for straightforward year-over-year comparisons.
-Additionally, I created a Date Hierarchy in the date table to enable drill-down functionality during analysis.
-Attach Image
 
-Data Exploration and Insights
+- *PREVIOUSMONTH()* was used instead of *DATEADD()* for better efficiency in the calculation context.
+- *SAMEPERIODLASTYEAR()* was preferred over *DATEADD()* for straightforward year-over-year comparisons.
+  
+Additionally, I created a Date Hierarchy in the date table to enable drill-down functionality during analysis.
+
+![image](https://github.com/user-attachments/assets/d03b7b06-122c-4fec-a4ce-ce08c9214643)
+
+### Data Exploration and Insights
+
 I delved into the data to uncover meaningful insights. While the polished final report may appear seamless and user-friendly, the analysis process often involves extensive exploration and iteration.
 Attach Image 1
 Attach Image 2
 
-Report Development
+### Report Development
+
 Based on stakeholder requirements, I built a report that effectively tells a story through various visual elements:
 •	Visuals Used:
 o	KPI Cards
@@ -89,7 +94,9 @@ o	Clustered Column Chart
 o	Donut Chart
 o	Combo Chart (Line and Clustered Column)
 o	Table
-•	Additional Features:
+
+#### Additional Features:
+
 o	Designed custom SVG backgrounds in PowerPoint and imported them into Power BI.
 o	Added page navigation and bookmarks to switch between visuals and configure buttons (e.g., “Show Menu”).
 o	Edited visual interactions to ensure slicers target relevant visuals, adding context for end-users.
@@ -97,7 +104,7 @@ o	Hid visual headers for a cleaner, more professional look.
 Attach Image 1
 Attach Image 2: Full Report
 
-Technical Requirements
+### Technical Requirements
 1.	Data Export Restrictions:
 Configured the report to prevent data export from the report server.
 2.	End-User Personalization:
