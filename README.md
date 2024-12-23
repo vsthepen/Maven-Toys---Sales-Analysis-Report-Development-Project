@@ -23,7 +23,9 @@ Prepare a comprehensive report that includes:
 ### Data Cleaning and Transformation
 Before diving into data cleaning and transformation, my first step is always to review the raw data, particularly when working with **“.xls”** or **“.csv”** files. This allows me to understand the data structure and relationships between different columns.
 The data for this project was stored in a folder containing five CSV files: **Calendar, Inventory, Products, Sales,** and **Stores**. I imported these files into Power Query using Power BI’s folder connector, which dynamically imports all files from a selected folder.
-Attach Image
+
+![image](https://github.com/user-attachments/assets/4406d0f5-b9cd-4a6d-88e1-9cfb523ca2c6)
+
 
 ### Transformation Steps
 1.	Creating Queries:
