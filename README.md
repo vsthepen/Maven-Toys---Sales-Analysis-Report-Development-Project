@@ -7,3 +7,12 @@
 - Present the Percentage of Sales and Profit by Store Location.
 - Include visuals that compare current year and previous year metrics for both product names and categories.
 
+### Security & Technical Requirements
+- Implement Row-Level Security (RLS) to ensure each store can only access their own sales data and KPIs when viewing the report.
+- Enable personalization of visuals to allow users to customize the report according to their needs.
+- Restrict data export from the report server to maintain data security.
+- Conduct a performance analysis of the report to identify and resolve any issues, ensuring optimal performance.
+- Configure an alert notification for when sales for the current year exceed that of the previous year.
+- Schedule a daily data refresh at 5:00 A.M.
+
+
