@@ -49,14 +49,15 @@ Once the transformation was complete, I clicked *"Close and Apply"* to load the 
 
 ### Modeling
 In the Model View, I reviewed the automatic relationships created by Power BI between the tables to ensure they aligned with the data structure.
-Attach Image
 
-Maintaining Data Integrity
-•	Date Table: Marked the date table as the official “Date Table” to ensure accurate time-based analysis.
-•	Data Categories: Assigned appropriate data categories (e.g., Store City) to prevent misinterpretation.
+![image](https://github.com/user-attachments/assets/563b75f9-acc0-46b6-9ed1-4b883bb29e9c)
+
+**Maintaining Data Integrity**
+•	Date Table: Marked the date table as the *"official Date Table"* to ensure accurate time-based analysis.
+•	Data Categories: Assigned appropriate data categories (e.g. Store City) to prevent misinterpretation.
 •	Nullable Columns: Disabled the Nullable option for key columns (primary and foreign keys) to enforce data integrity and enhance performance.
 
-Measure Table
+**Measure Table**
 To organize and streamline the analysis, I created a dedicated measure table containing key metrics such as:
 •	Total Sales
 •	Total Profit
