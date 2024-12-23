@@ -26,25 +26,28 @@ The data for this project was stored in a folder containing five CSV files: **Ca
 
 ![image](https://github.com/user-attachments/assets/4406d0f5-b9cd-4a6d-88e1-9cfb523ca2c6)
 
-
 ### Transformation Steps
-1.	Creating Queries:
+1.	**Creating Queries:**
 I created individual queries for each table by right clicking the “Content” column, selecting Binary > Add as New Query, and repeating the process for all five tables. (I am still exploring more efficient methods using M code.) 
-2.	Optimizing Queries:
+2.	**Optimizing Queries:**
 After creating the queries, I renamed them and disabled the Enable Load option in the original query to optimize model performance.
-Attach Image
-3.	Ensuring Data Quality:
-I enabled the Column Quality feature to quickly identify and address errors in the data.
-4.	Cleaning Columns:
-I used delimiters to split columns containing mixed text and numbers.
-5.	Removing Irrelevant Columns:
-Unnecessary columns were removed from each query to reduce model size and improve performance.
-6.	Fixing Locale Issues:
-While transforming the Date table, I encountered an error when changing the column data type to “Date.” This was resolved by right-clicking the column header, selecting Change Type > Using Locale, and choosing the appropriate locale for the date format.
-Attach Image
-Once the transformation was complete, I clicked Close and Apply to load the data into Power BI.
 
-Modeling
+![image](https://github.com/user-attachments/assets/194ee0e4-e67b-4915-913c-d4be3936ab65)
+
+3.	**Ensuring Data Quality:**
+I enabled the Column Quality feature to quickly identify and address errors in the data.
+5.	**Cleaning Columns:**
+I used delimiters to split columns containing mixed text and numbers.
+6.	**Removing Irrelevant Columns:**
+Unnecessary columns were removed from each query to reduce model size and improve performance.
+7.	**Fixing Locale Issues:**
+While transforming the Date table, I encountered an error when changing the column data type to “Date.” This was resolved by right-clicking the column header, selecting Change Type > Using Locale, and choosing the appropriate locale for the date format.
+
+![image](https://github.com/user-attachments/assets/2369503d-4dea-458f-a4f6-cff9f6015151)
+
+Once the transformation was complete, I clicked *"Close and Apply"* to load the data into Power BI.
+
+### Modeling
 In the Model View, I reviewed the automatic relationships created by Power BI between the tables to ensure they aligned with the data structure.
 Attach Image
 
