@@ -81,21 +81,20 @@ Additionally, I created a Date Hierarchy in the date table to enable drill-down 
 
 ### Data Exploration and Insights
 
-I delved into the data to uncover meaningful insights. While the polished final report may appear seamless and user-friendly, the analysis process often involves extensive exploration and iteration.
+I delved into the data to uncover meaningful insights. While the polished final report may appear seamless and user-friendly, the analysis process often involves extensive exploration.
 
-Attach Image 1
-Attach Image 2
+![Data Exploration](https://github.com/user-attachments/assets/b06cbbdf-d86b-4ad6-991e-f61acb880845)
 
 ### Report Development
 
 Based on stakeholder requirements, I built a report that effectively tells a story through various visual elements:
 
 •	Visuals Used:
-o	KPI Cards
-o	Clustered Column Chart
-o	Donut Chart
-o	Combo Chart (Line and Clustered Column)
-o	Table
+- KPI Cards
+- Clustered Column Chart
+- Donut Chart
+- Combo Chart (Line and Clustered Column)
+- Table
 
 #### Additional Features:
 
