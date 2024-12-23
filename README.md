@@ -28,9 +28,9 @@ The data for this project was stored in a folder containing five CSV files: **Ca
 
 ### Transformation Steps
 1.	**Creating Queries:**
-I created individual queries for each table by right clicking the “Content” column, selecting Binary > Add as New Query, and repeating the process for all five tables. (I am still exploring more efficient methods using M code.) 
+I created individual queries for each table by right clicking *Binary > Add as New Query*, and repeating the process for all five tables. (I am still exploring more efficient methods using M code.) 
 2.	**Optimizing Queries:**
-After creating the queries, I renamed them and disabled the Enable Load option in the original query to optimize model performance.
+After creating the queries, I renamed them and disabled the *Enable Load* option in the original query to optimize model performance.
 
 ![image](https://github.com/user-attachments/assets/194ee0e4-e67b-4915-913c-d4be3936ab65)
 
@@ -41,7 +41,7 @@ I used delimiters to split columns containing mixed text and numbers.
 6.	**Removing Irrelevant Columns:**
 Unnecessary columns were removed from each query to reduce model size and improve performance.
 7.	**Fixing Locale Issues:**
-While transforming the Date table, I encountered an error when changing the column data type to “Date.” This was resolved by right-clicking the column header, selecting Change Type > Using Locale, and choosing the appropriate locale for the date format.
+While transforming the Date table, I encountered an error when changing the column data type to *Date*.This was resolved by right-clicking the column header, selecting *Change Type > Using Locale*, and choosing the appropriate locale for the date format.
 
 ![image](https://github.com/user-attachments/assets/2369503d-4dea-458f-a4f6-cff9f6015151)
 
