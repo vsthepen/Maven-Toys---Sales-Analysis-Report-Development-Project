@@ -82,12 +82,14 @@ Additionally, I created a Date Hierarchy in the date table to enable drill-down 
 ### Data Exploration and Insights
 
 I delved into the data to uncover meaningful insights. While the polished final report may appear seamless and user-friendly, the analysis process often involves extensive exploration and iteration.
+
 Attach Image 1
 Attach Image 2
 
 ### Report Development
 
 Based on stakeholder requirements, I built a report that effectively tells a story through various visual elements:
+
 •	Visuals Used:
 o	KPI Cards
 o	Clustered Column Chart
