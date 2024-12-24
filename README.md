@@ -1,5 +1,9 @@
 ## Maven-Toys---Sales-Analysis-Report-Development-Project
 
+### Overview
+
+Maven Toys, a renowned toy company, has provided two years of data (2022 and 2023) for analysis. The goal is to evaluate their performance and uncover insights aligned with the specified requirements below, enabling data-driven decision-making to support their business objectives.
+
 ### Report Requirements
 - Provide an analysis of Sales and Profit by Product Category.
 - Identify and display the Top 10 Most Sold Products.
