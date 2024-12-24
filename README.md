@@ -66,7 +66,7 @@ In the Model View, I reviewed the automatic relationships created by Power BI be
 
 **Measure Table**
 
-To organize and streamline the analysis, I created a dedicated measure table containing key metrics as shown below:
+For organization purposes, I created a dedicated measure table containing key metrics as shown below:
 
 ![image](https://github.com/user-attachments/assets/4146391e-c2b4-494b-abbf-c87fccc0f7d4)
 
@@ -110,7 +110,7 @@ Based on stakeholder requirements, I built a report that effectively tells a sto
 
 ### Technical Requirements
 
-1.	**Data Export Restrictions:**
+**1.	Data Export Restrictions:**
    
 Configured the report to prevent data export from the report server.
 
@@ -119,19 +119,19 @@ Configured the report to prevent data export from the report server.
 ![image](https://github.com/user-attachments/assets/d41cd0ed-fa39-484e-8457-973d00c0a7bb)
 
 
-2.	**End-User Personalization:**
+**2.	End-User Personalization:**
    
 Allowed users to personalize visuals in the report.
 
 (Settings: File > Options and Settings > Report Settings)
 
-3.	**Performance Analysis:**
+**3.	Performance Analysis:**
    
 Ran the Performance Analyzer to identify and fix potential bottlenecks. The maximum report render time was ~1.6 seconds (~1648ms), well within the ideal threshold of 2 seconds.
 
 ![image](https://github.com/user-attachments/assets/19866680-a3e3-4b02-9e39-327464006073)
 
-4.	**Row-Level Security (RLS):**
+**4.	Row-Level Security (RLS):**
    
 To ensure each store could only access its data, I:
 
@@ -143,7 +143,7 @@ To ensure each store could only access its data, I:
 
 ![image](https://github.com/user-attachments/assets/74b9b3a2-dc70-4917-b78b-6df18e19b2be)
 
-5.	**Scheduled Data Refresh:**
+**5.	Scheduled Data Refresh:**
     
 Installed and configured a gateway to connect Power BI Service to the source folder. Scheduled daily refreshes at 5 a.m.
 
@@ -151,7 +151,7 @@ Installed and configured a gateway to connect Power BI Service to the source fol
 
 ![image](https://github.com/user-attachments/assets/461bfdc3-47e1-48af-be29-acaebc07528a)
 
-6.	**Alerts for Key Metrics:**
+**6.	Alerts for Key Metrics:**
 
 Set up alerts for the Sales Head to notify them when current-year sales exceed the previous year. This was done via Power BI Service by selecting the relevant KPI visual, clicking Set Alert, and configuring the details.
 
