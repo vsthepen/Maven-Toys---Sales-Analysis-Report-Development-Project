@@ -60,15 +60,9 @@ In the Model View, I reviewed the automatic relationships created by Power BI be
 
 **Measure Table**
 
-To organize and streamline the analysis, I created a dedicated measure table containing key metrics such as:
+To organize and streamline the analysis, I created a dedicated measure table containing key metrics as shown below:
 
-- Total Sales
-- Total Profit
-- Total Sales Year-to-Date
-- Previous Year Sales
-- Previous Month Sales
-- Total Quantity Sold
-- Number of Transactions
+![image](https://github.com/user-attachments/assets/4146391e-c2b4-494b-abbf-c87fccc0f7d4)
 
 While crafting these measures, I ensured DAX queries were optimized for performance. For example:
 
@@ -98,11 +92,13 @@ Based on stakeholder requirements, I built a report that effectively tells a sto
 
 #### Additional Features:
 
-o	Designed custom SVG backgrounds in PowerPoint and imported them into Power BI.
-o	Added page navigation and bookmarks to switch between visuals and configure buttons (e.g., “Hide Menu”).
-o	Edited visual interactions to ensure slicers target relevant visuals, adding context for end-users.
-o	Hid visual headers for a cleaner, more professional look.
-Attach Image 1
+- Designed custom SVG backgrounds in PowerPoint and imported them into Power BI.
+- Added page navigation and bookmarks to switch between visuals and configure buttons (e.g., “Hide Menu”).
+- Edited visual interactions to ensure slicers target relevant visuals, adding context for end-users.
+- Hid visual headers for a cleaner, more professional look.
+  
+![image](https://github.com/user-attachments/assets/828f8cab-5789-44e4-8998-9c11278c5109)
+
 Attach Image 2: Full Report
 
 ### Technical Requirements
