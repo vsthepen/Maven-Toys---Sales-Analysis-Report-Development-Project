@@ -104,33 +104,52 @@ Based on stakeholder requirements, I built a report that effectively tells a sto
 
 ### Technical Requirements
 
-1.	Data Export Restrictions:
+1.	**Data Export Restrictions:**
    
 Configured the report to prevent data export from the report server.
 
 (Settings: File > Options and Settings > Report Settings)
 
-2.	End-User Personalization:
+![image](https://github.com/user-attachments/assets/d41cd0ed-fa39-484e-8457-973d00c0a7bb)
+
+
+2.	**End-User Personalization:**
    
 Allowed users to personalize visuals in the report.
 
 (Settings: File > Options and Settings > Report Settings)
 
-5.	Performance Analysis:
+3.	**Performance Analysis:**
+   
 Ran the Performance Analyzer to identify and fix potential bottlenecks. The maximum report render time was ~1.6 seconds (~1648ms), well within the ideal threshold of 2 seconds.
-Attach Image
-6.	Row-Level Security (RLS):
+
+![image](https://github.com/user-attachments/assets/19866680-a3e3-4b02-9e39-327464006073)
+
+4.	**Row-Level Security (RLS):**
+   
 To ensure each store could only access its data, I:
-o	Created a unique identifier by combining store name and location, resolving cases where stores shared the same name within a city.
-o	Configured 35 roles by applying filters to the Store dimension table.
-o	Tested roles to confirm proper functionality before publishing.
-Attach Image
-7.	Scheduled Data Refresh:
+
+- Created a unique identifier by combining store name and location, resolving cases where stores shared the same name within a city.
+- Configured 35 roles by applying filters to the Store dimension table.
+- Tested roles to confirm proper functionality before publishing.
+
+![image](https://github.com/user-attachments/assets/88cb423b-4c1d-445f-8492-b0b632991fc9)
+
+![image](https://github.com/user-attachments/assets/74b9b3a2-dc70-4917-b78b-6df18e19b2be)
+
+5.	**Scheduled Data Refresh:**
+    
 Installed and configured a gateway to connect Power BI Service to the source folder. Scheduled daily refreshes at 5 a.m.
-Attach Image
-8.	Alerts for Key Metrics:
+
+![image](https://github.com/user-attachments/assets/d102cbe1-1688-4e8a-b86f-4e6d6279435d)
+
+![image](https://github.com/user-attachments/assets/461bfdc3-47e1-48af-be29-acaebc07528a)
+
+6.	**Alerts for Key Metrics:**
+
 Set up alerts for the Sales Head to notify them when current-year sales exceed the previous year. This was done via Power BI Service by selecting the relevant KPI visual, clicking Set Alert, and configuring the details.
-Attach Image
+
+![image](https://github.com/user-attachments/assets/1a7f6e74-ad4a-4bbc-9167-3ed254e4ec6c)
 
 Finally, I prepared a PowerPoint presentation for our upcoming meeting with the sales team. Each slide was carefully designed to convey insights clearly and effectively, using concise interpretations of the data. To enhance understanding, I incorporated annotations and visual elements to emphasize key points and ensure the information was communicated seamlessly.
 Attach images
