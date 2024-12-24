@@ -99,28 +99,36 @@ Based on stakeholder requirements, I built a report that effectively tells a sto
   
 ![image](https://github.com/user-attachments/assets/828f8cab-5789-44e4-8998-9c11278c5109)
 
-Attach Image 2: Full Report
+*Full Report Overview* ![Full Report Overview](https://github.com/user-attachments/assets/87530261-9153-4a69-97da-6133d7e2a36a)
+
 
 ### Technical Requirements
 
 1.	Data Export Restrictions:
+   
 Configured the report to prevent data export from the report server.
-2.	End-User Personalization:
-Allowed users to personalize visuals in the report.
+
 (Settings: File > Options and Settings > Report Settings)
-3.	Performance Analysis:
+
+2.	End-User Personalization:
+   
+Allowed users to personalize visuals in the report.
+
+(Settings: File > Options and Settings > Report Settings)
+
+5.	Performance Analysis:
 Ran the Performance Analyzer to identify and fix potential bottlenecks. The maximum report render time was ~1.6 seconds (~1648ms), well within the ideal threshold of 2 seconds.
 Attach Image
-4.	Row-Level Security (RLS):
+6.	Row-Level Security (RLS):
 To ensure each store could only access its data, I:
 o	Created a unique identifier by combining store name and location, resolving cases where stores shared the same name within a city.
 o	Configured 35 roles by applying filters to the Store dimension table.
 o	Tested roles to confirm proper functionality before publishing.
 Attach Image
-5.	Scheduled Data Refresh:
+7.	Scheduled Data Refresh:
 Installed and configured a gateway to connect Power BI Service to the source folder. Scheduled daily refreshes at 5 a.m.
 Attach Image
-6.	Alerts for Key Metrics:
+8.	Alerts for Key Metrics:
 Set up alerts for the Sales Head to notify them when current-year sales exceed the previous year. This was done via Power BI Service by selecting the relevant KPI visual, clicking Set Alert, and configuring the details.
 Attach Image
 
