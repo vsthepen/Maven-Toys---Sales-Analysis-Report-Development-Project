@@ -20,6 +20,8 @@ Prepare a comprehensive report that includes:
 - An executive summary highlighting key insights and trends.
 - Actionable recommendations based on the analysis to guide decision-making.
 
+  **STEPS**
+
 ### Data Cleaning and Transformation
 Before diving into data cleaning and transformation, my first step is always to review the raw data, particularly when working with *“.xls”* or *“.csv”* files. This allows me to understand the data structure and relationships between different columns.
 The data for this project was stored in a folder containing five CSV files: *Calendar, Inventory, Products, Sales,* and *Stores*. I imported these files into Power Query using Power BI’s folder connector, which dynamically imports all files from a selected folder.
