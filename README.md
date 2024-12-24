@@ -152,6 +152,10 @@ Set up alerts for the Sales Head to notify them when current-year sales exceed t
 ![image](https://github.com/user-attachments/assets/1a7f6e74-ad4a-4bbc-9167-3ed254e4ec6c)
 
 Finally, I prepared a PowerPoint presentation for our upcoming meeting with the sales team. Each slide was carefully designed to convey insights clearly and effectively, using concise interpretations of the data. To enhance understanding, I incorporated annotations and visual elements to emphasize key points and ensure the information was communicated seamlessly.
-Attach images
 
+![Slide2](https://github.com/user-attachments/assets/1c1a5fd8-217c-4c57-af44-3398e0c13930)
+
+![Slide3](https://github.com/user-attachments/assets/8439b1ca-71ae-4eb2-a3bc-7e50ce629a86)
+
+![Slide5](https://github.com/user-attachments/assets/b2a16235-48ab-4521-8504-4ebad75f739d)
 
