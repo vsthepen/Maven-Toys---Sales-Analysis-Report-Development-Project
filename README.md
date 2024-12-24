@@ -83,7 +83,7 @@ Additionally, I created a Date Hierarchy in the date table to enable drill-down 
 
 I delved into the data to uncover meaningful insights. While the polished final report may appear seamless and user-friendly, the analysis process often involves extensive exploration.
 
-AAAAA ![Data Exploration](https://github.com/user-attachments/assets/b06cbbdf-d86b-4ad6-991e-f61acb880845)
+*Image showing part of the data exploration process*  ![Data Exploration](https://github.com/user-attachments/assets/b06cbbdf-d86b-4ad6-991e-f61acb880845)
 
 ### Report Development
 
@@ -99,13 +99,14 @@ Based on stakeholder requirements, I built a report that effectively tells a sto
 #### Additional Features:
 
 o	Designed custom SVG backgrounds in PowerPoint and imported them into Power BI.
-o	Added page navigation and bookmarks to switch between visuals and configure buttons (e.g., “Show Menu”).
+o	Added page navigation and bookmarks to switch between visuals and configure buttons (e.g., “Hide Menu”).
 o	Edited visual interactions to ensure slicers target relevant visuals, adding context for end-users.
 o	Hid visual headers for a cleaner, more professional look.
 Attach Image 1
 Attach Image 2: Full Report
 
 ### Technical Requirements
+
 1.	Data Export Restrictions:
 Configured the report to prevent data export from the report server.
 2.	End-User Personalization:
