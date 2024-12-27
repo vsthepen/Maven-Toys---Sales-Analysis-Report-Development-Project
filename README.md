@@ -2,7 +2,7 @@
 
 ### Overview
 
-Maven Toys, a renowned toy company, has provided two years of data (2022 and 2023) for analysis. The goal is to evaluate their performance and uncover insights aligned with the specified requirements below, enabling data-driven decision-making to support their business objectives.
+Maven Toys, a toy company with 35 stores across various cities and locations, has provided two years of data (2022 and 2023) for analysis. The objective is to assess their performance, derive insights and build a report aligned with the specified requirements below, supporting data-driven decision-making to achieve their business goals.
 
 ### Report Requirements
 - Provide an analysis of Sales and Profit by Product Category.
