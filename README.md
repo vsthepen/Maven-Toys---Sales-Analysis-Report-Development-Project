@@ -54,7 +54,9 @@ While transforming the Date table, I encountered an error when changing the colu
 Once the transformation was complete, I clicked *"Close and Apply"* to load the data into Power BI.
 
 ### Modeling
-In the Model View, I reviewed the automatic relationships created by Power BI between the tables to ensure they aligned with the data structure.
+In the Model View, I reviewed the automatic relationships created by Power BI between the tables to ensure they aligned with the data structure. 
+
+The result of these relationships between the fact and dimension tables was a **snowflake schema**.
 
 ![image](https://github.com/user-attachments/assets/563b75f9-acc0-46b6-9ed1-4b883bb29e9c)
 
@@ -128,6 +130,8 @@ Allowed users to personalize visuals in the report.
 **3.	Performance Analysis:**
    
 Ran the Performance Analyzer to identify and fix potential bottlenecks. The maximum report render time was ~1.6 seconds (~1648ms), well within the ideal threshold of 2 seconds.
+
+Before performance analyzer was run, i cleared the visual cache to ensure accurate execution time was captured. When visuals use cached data, Power BI retrieves result directly from memory rather than executing the full DAX query or refreshing data from the source which can give misleading low execution times.
 
 ![image](https://github.com/user-attachments/assets/19866680-a3e3-4b02-9e39-327464006073)
 
