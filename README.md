@@ -46,7 +46,9 @@ I enabled the Column Quality feature to quickly identify and address errors in t
 I used delimiters to split columns containing mixed text and numbers.
 6.	**Removing Irrelevant Columns:**
 Unnecessary columns were removed from each query to reduce model size and improve performance.
-7.	**Fixing Locale Issues:**
+7.	**Replace Values:**
+The Unit price and cost columns included numbers combined with currency symbols. I used the *Replace Values* option to remove the currency symbols, leaving only the numeric values. Afterward, I updated the datatype to ensure the columns were correctly formatted.
+8.	**Fixing Locale Issues:**
 While transforming the Date table, I encountered an error when changing the column data type to *Date*.This was resolved by right-clicking the column header, selecting *Change Type > Using Locale*, and choosing the appropriate locale for the date format.
 
 ![image](https://github.com/user-attachments/assets/2369503d-4dea-458f-a4f6-cff9f6015151)
