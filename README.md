@@ -105,9 +105,11 @@ Based on stakeholder requirements, I built a report that effectively tells a sto
 - Edited visual interactions to ensure slicers target relevant visuals, adding context for end-users.
 - Hid visual headers for a cleaner, more professional look.
   
-![image](https://github.com/user-attachments/assets/828f8cab-5789-44e4-8998-9c11278c5109)
+![image](https://github.com/user-attachments/assets/91fd328f-1479-402e-bc65-6b26eba7ad97)
 
-*Full Report Overview* ![Full Report Overview](https://github.com/user-attachments/assets/87530261-9153-4a69-97da-6133d7e2a36a)
+
+*Full Report Overview* ![Full Report Overview] (https://github.com/user-attachments/assets/5e6f477e-ecbb-4b2a-a753-6e78a0df43c6)
+
 
 
 ### Technical Requirements
