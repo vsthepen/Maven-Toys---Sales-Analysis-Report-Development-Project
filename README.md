@@ -108,7 +108,9 @@ Based on stakeholder requirements, I built a report that effectively tells a sto
 ![image](https://github.com/user-attachments/assets/91fd328f-1479-402e-bc65-6b26eba7ad97)
 
 
-*Full Report Overview* ![image](https://github.com/user-attachments/assets/5ae17813-38ef-485c-b4d2-b736ae64958e)
+*Full Report Overview* 
+
+![image](https://github.com/user-attachments/assets/5ae17813-38ef-485c-b4d2-b736ae64958e)
 
 
 
